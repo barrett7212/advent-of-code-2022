@@ -12,7 +12,6 @@
 	<artifactId>advent-of-code-2022</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>advent-of-code-2022</name>
-	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>19</java.version>
 	</properties>
