@@ -36,11 +36,12 @@ public class DayThreePartTwo {
                 char badge = findItemInEach(scanner.nextLine(), scanner.nextLine(), scanner.nextLine());
                 totalPriority += calculatePriority(badge);
             }
+
+            System.out.println("D3P2 Solution: " + totalPriority);
+            scanner.close();
         } catch (Exception e) {
             System.out.println(e);
         }
-
-        System.out.println("D3P2 Solution: " + totalPriority);
     }
 
     private char findItemInEach(String... rucksacks) {
@@ -66,7 +67,7 @@ public class DayThreePartTwo {
             }
             rucksackCount++;
         }
-        return Character.valueOf(chars.stream().findFirst().orElseGet(() -> 'a'));
+        return chars.stream().findFirst().orElse('a');
     }
 
     private int calculatePriority(char c) {

@@ -39,11 +39,13 @@ public class DayThree {
                 char both = findItemInBoth(compartment1, compartment2);
                 totalPriority += calculatePriority(both);
             }
+
+            System.out.println("D3P1 Solution: " + totalPriority);
+            scanner.close();
+
         } catch (Exception e) {
             System.out.println(e);
         }
-
-        System.out.println("D3P1 Solution: " + totalPriority);
     }
 
     private char findItemInBoth(String compartment1, String compartment2) {
