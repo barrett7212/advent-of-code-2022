@@ -1,4 +1,4 @@
-package com.barrett.adventofcode2022;
+package com.barrett.adventofcode2022.dayone;
 
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;

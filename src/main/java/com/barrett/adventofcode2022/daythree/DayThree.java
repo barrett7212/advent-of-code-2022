@@ -1,4 +1,4 @@
-package com.barrett.adventofcode2022;
+package com.barrett.adventofcode2022.daythree;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
