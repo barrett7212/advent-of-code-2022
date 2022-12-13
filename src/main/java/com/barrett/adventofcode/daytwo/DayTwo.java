@@ -23,7 +23,7 @@ public class DayTwo {
 
     @Bean
     public void dayTwoSolution() {
-        Resource resource = resourceLoader.getResource("classpath:day/two/input.txt");
+        Resource resource = resourceLoader.getResource("classpath:day/2/input.txt");
 
         int firstScore = 0;
         int secondScore = 0;

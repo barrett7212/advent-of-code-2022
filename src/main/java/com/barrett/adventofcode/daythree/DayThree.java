@@ -24,7 +24,7 @@ public class DayThree {
 
     @Bean
     public void dayThreeSolution() {
-        Resource resource = resourceLoader.getResource("classpath:day/three/input.txt");
+        Resource resource = resourceLoader.getResource("classpath:day/3/input.txt");
 
         int totalPriority = 0;
 

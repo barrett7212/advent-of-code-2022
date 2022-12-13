@@ -24,7 +24,7 @@ public class DayOne {
 
     @Bean
     public void dayOneSolution() {
-        Resource resource = resourceLoader.getResource("classpath:day/one/input.txt");
+        Resource resource = resourceLoader.getResource("classpath:day/1/input.txt");
 
         try {
             File file = resource.getFile();

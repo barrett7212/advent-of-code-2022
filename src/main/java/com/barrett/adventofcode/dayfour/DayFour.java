@@ -22,7 +22,7 @@ public class DayFour {
 
     @Bean
     public void dayFourSolution() {
-        Resource resource = resourceLoader.getResource("classpath:day/four/input.txt");
+        Resource resource = resourceLoader.getResource("classpath:day/4/input.txt");
 
         try {
             File file = resource.getFile();

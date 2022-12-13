@@ -22,7 +22,7 @@ public class DayThreePartTwo {
 
     @Bean
     public void dayThreeSolutionPartTwo() {
-        Resource resource = resourceLoader.getResource("classpath:day/three/input2.txt");
+        Resource resource = resourceLoader.getResource("classpath:day/3/input2.txt");
 
         int totalPriority = 0;
 
